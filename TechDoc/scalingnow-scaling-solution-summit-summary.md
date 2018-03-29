@@ -289,7 +289,7 @@ In this section we will summarise the key points regarding the state channel sca
 
 * **Useability**: The solution was custom built for the Decentraland auction which means that a lot of work could be involved to adapt it to another project. It should be noted that the state transitions had to be completely serialisable which limits throughput: 10s-100s requests per second, and theoretical it could handle 1000s if is limited commitment failures.
 
-* **可用性**：该解决方案是为 Decentraland 拍卖而定制的，这意味着如果要在其它项目中使用，可能会涉及许多工作。应该注意的是，状态转换必须完全串行化，这限制了吞吐量：每秒 10s-100s 的请求数，在承诺失败（commitment failures）的条件下，理论上它可以处理 1000s。
+* **可用性**：该解决方案是为 Decentraland 拍卖而定制的，这意味着如果要在其它项目中使用，可能会涉及许多工作。应该注意的是，状态转换必须完全串行化，这限制了吞吐量：每秒 10s-100s 的请求数，在能实现承诺（commitment failures）的条件下，理论上它可以处理 1000s。
 
 ### **General problems with state channels**
 
